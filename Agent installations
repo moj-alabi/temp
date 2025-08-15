@@ -8,3 +8,6 @@ sudo systemctl start wazuh-agent
 
 
 wget https://packages.wazuh.com/4.x/apt/pool/main/w/wazuh-agent/wazuh-agent_4.12.0-1_amd64.deb && sudo WAZUH_MANAGER='10.0.10.2' WAZUH_AGENT_NAME='sl-ubuntu-srv01' dpkg -i ./wazuh-agent_4.12.0-1_amd64.deb
+
+
+https://wazuh.com/blog/responding-to-network-attacks-with-suricata-and-wazuh-xdr/
